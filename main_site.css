@@ -1,0 +1,79 @@
+body {background-image:url(hogwarts.jpg);}
+#main_logo { top: 15px;}
+nav{
+    font-size: 17pt; 
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px;
+    position:absolute; 
+    left: 110px; 
+    top: 15px; 
+}
+.menu {
+    color:#ffff00;
+    text-decoration: none;
+}
+
+#notice {  
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+    margin-right: 60%;
+    color: yellow;
+    font-size: 19px;
+    border: thick solid white;
+    position:relative;
+}
+
+#veiw {
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+    margin-right: 60%;
+    color: yellow;
+    font-size: 19px;
+    border: thick solid white;
+    position: relative;
+    /* left: 500px; */
+}
+
+#title{
+    color: yellow;
+    font-size: 15px;
+}
+
+table{
+    position: relative;
+    left: 550px;
+    bottom: 900px;
+}
+
+#work {  
+    padding: 15px;
+    background-color: black;
+    opacity: 0.8;
+    margin-right: 60%;
+    color: yellow;
+    font-size: 19px;
+    border: thick solid white;
+    position:relative;
+    width: 460px;
+}
+
+h5 {
+    color: white;
+}
+
+#ff {
+    padding: 15px;
+    color: yellow;
+    position: relative;
+    font-size: 17pt;
+    background-color: black;
+    opacity: 0.8;
+    left: 550px;
+    bottom:850px;
+    width: 400px;
+}
