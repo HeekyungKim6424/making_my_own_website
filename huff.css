@@ -1,7 +1,7 @@
-body {background-image:url(domi_rev.jpg);}
+body {background-image:url(domi_huff.jpg);}
 
 #domi_info {
-    background-color: dodgerblue;
+    background-color: goldenrod;
     position:relative;
     left: 220px;
     bottom: 290px;
@@ -16,7 +16,7 @@ body {background-image:url(domi_rev.jpg);}
 }
 
 #master_info{
-    background-color: dodgerblue;
+    background-color:goldenrod;
     position:relative;
     left: 220px;
     bottom: 275px;
@@ -48,7 +48,7 @@ body {background-image:url(domi_rev.jpg);}
 }
 
 #ann {
-    background-color: dodgerblue;
+    background-color: goldenrod;
     position: relative;
     bottom: 500px;
     left: 90px;

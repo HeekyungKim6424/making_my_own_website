@@ -2,36 +2,84 @@
 <html>
 
 <head>
+<link rel="stylesheet"  type="text/css" href="sly.css"/>
 </head>
 
 <body>
+<script type="text/javascript" src="domi.js"></script>
 <header>
 <a class="main_logo" href='main.html'><img src='logo.jpeg' width="90" height="100"/></a>
-<h3>Ravenclaw<h3>
 </header>
+
 <article>
-<section>
-<h3>Rowena Ravenclaw</h3>
-<!--설립자 관한 설명과 각 기숙사에 대한 특징 설명-->
+<section id="domi">
+<img src="sly_logo.jpg" width="200" height="250"/>
+<p id="domi_info"><br>Ravenclaw: </br>
+Slytherins tend to be ambitious, shrewd, cunning, strong leaders, and achievement-oriented. 
+They also have highly developed senses of self-preservation.
+This means that Slytherins tend to hesitate before acting, 
+so as to weigh all possible outcomes before deciding exactly what should be done.
+qualities which Salazar valued in the students he had chosen included 
+cleverness, resourcefulness, determination, and "a certain disregard for the rules."
+Slytherins tend to take charge and possess strong leadership skills. 
+They are often self-assured and confident of their own competence and can be very loyal.<br><br>
+</p>
+</section>
+<section id="master">
+<img src="master_sly.gif" width="200" height="250"/>
+<p id="master_info"><br>Rowena Ravenclaw:</br>
+The qualities which Slytherin prized in his "handpicked students" 
+included resourcefulness, determination, and a certain disregard for the rules, 
+along with the ability to speak Parseltongue.
+He also selected his students according to their cunning, ambition, and blood purity.
+His House within Hogwarts was symbolised by a serpent,with House colours of green and silver.
+Salazar Slytherin was known to possess great cunning and determination, 
+qualities he prized in students of Slytherin House. At one point, the Sorting Hat referred 
+to him as "power-hungry Slytherin". He seemed to stop at nothing to get what he wanted; 
+this was proven when he constructed the Chamber of Secrets to purge Muggle-borns, 
+despite the fact that the other founders disagreed with his beliefs.
+<br><br>
+</p>
 </section>
 
-<section>
-<h3>Recruitment of members</h3>
-
-<!--각종 스터디원 모집-->
-</section>
-
-<section>
-<h3>guest book</h3>
-</section>
-
-<section>
+<section id="ann"><br>
 <h3>Announcement by subject</h3>
+<ol>
+<li>3rd grade June 17th Magic Medicine Class: </br>
+Gathering in a greenhouse instead of a dungeon.</li>
+<li>3rd grade June 17th Magic Medicine Class:</br>
+ Gathering in a greenhouse instead of a dungeon.</li>
+<li>Sixth grade alchemy opening:</br>
+ Please apply. The deadline for applications is 12 June.</li>
+ </ol><br>
+</section>
+
+<section id="visit">
+<h3>guest book</h3>
+<table>
+<tr>
+<form>
+<input value="click button and write guest book!" type="button" onclick="hello();"/></form>
+</tr>
+<tr>
+<td><div id="result"></div></td>
+</tr>
+</table>
 </section>
 
 </article>
-<aside>
-<h3>Score by Dorm</h3>
+
+<aside id="side">
+&nbsp; &nbsp;Score by Dorm <br>
+<img id="ocean" src="score.png" width="300" height="220"/>
+<table id="score_form" border="1" border-spacing="200px">
+<tr>
+<td>griffindor<br>&nbsp;&nbsp;&nbsp;300</td><td>slytherin<br>&nbsp;&nbsp;&nbsp;500</td>
+</tr>
+<tr>
+<td>hufflepuff<br>&nbsp;&nbsp;&nbsp;350</td><td>ravenclaw<br>&nbsp;&nbsp;&nbsp;460</td>
+</tr>
+</table>
 </aside>
 
 <footer>
@@ -40,4 +88,3 @@
 </body>
 
 </html>
-

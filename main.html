@@ -4,7 +4,7 @@
 <link rel="stylesheet"  type="text/css" href="main_site.css"/>
 </head>
 <body>
-
+<script type="text/javascript" src="main.js"></script>
 <header> 
 <a class="main_logo" href='main.html'><img src='logo.jpeg' width="90" height="100"/></a>
 <nav>
@@ -70,16 +70,23 @@ class="menu">Ministry of Magic</a></li>
 <section>
 <form id="ff">
 join form for freshman<br>
-Name: <input type="text" id="name"/></br>
-Domitory: <select name="domi">
+Name: <input type="text" id="name" onclick="freshman();"/></br>
+Domitory: <select name="sel" id="sel" class="sel">
 <option value="revanclaw">Revanclaw</option>
 <option value="slytherin">Slytherin</option>
 <option value="hufflepuff">Hufflepuff</option>
 <option value="gryffindor">Gryffindor</option>
 </select></br>
-<input type="button" id="ok" value="ok"/></br>
+<input type="button" value="ok" onclick="ok();" /></br>
 <a class="menu" href="https://my.wizardingworld.com/register/age-gate"> Find your domitory!</a>
 </form>
+</section>
+
+<hr>
+<section>
+<h5>for more imformation...</h5>
+<a href='https://www.wizardingworld.com/news'><img src='pottermore.jpeg' width="100" height="50"></a>
+<a href='https://harrypotter.fandom.com/wiki/Main_Page'><img src='info.png' width="100" height="50"></a>
 </section>
 
 </article>
@@ -101,9 +108,11 @@ Domitory: <select name="domi">
 </aside>
 
 <footer>
-<h5>for more imformation...</h5>
-<a href='https://www.wizardingworld.com/news'><img src='pottermore.jpeg' width="100" height="50"></a>
-<a href='https://harrypotter.fandom.com/wiki/Main_Page'><img src='info.png' width="100" height="50"></a>
+<div style="font-size:8pt">
+      hogwart page for homework<br/>
+      made by Kim Heekyung<br>
+      Copyright 2021 (c) Hogwart Inc. All Rights Reserved
+    </div>
 </footer>
 
 </body>

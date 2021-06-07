@@ -2,35 +2,82 @@
 <html>
 
 <head>
+<link rel="stylesheet"  type="text/css" href="huff.css"/>
 </head>
 
 <body>
+<script type="text/javascript" src="domi.js"></script>
 <header>
 <a class="main_logo" href='main.html'><img src='logo.jpeg' width="90" height="100"/></a>
-<h3>Ravenclaw<h3>
 </header>
+
 <article>
-<section>
-<h3>Rowena Ravenclaw</h3>
-<!--설립자 관한 설명과 각 기숙사에 대한 특징 설명-->
+<section id="domi">
+<img src="huff_logo.jpg" width="200" height="250"/>
+<p id="domi_info"><br>Ravenclaw: </br>
+Students belonging to this house were known to be hard-working, friendly, loyal, honest 
+and rather impartial. It may be that due to their values, Hufflepuffs are not as competitive 
+as the other houses, and are more modest about their accomplishments. 
+Hufflepuff is the most inclusive among the four houses; 
+valuing hard work, dedication, patience, loyalty, and fair play 
+rather than a particular aptitude in its students.
+Hufflepuffs were known to have a strong moral code, and a sense of right and wrong. 
+Hufflepuffs were usually accepting of everyone. 
+Students in Hufflepuff were known to value everyone and treat them as equal.<br><br>
+</p>
+</section>
+<section id="master">
+<img src="master_huff.gif" width="200" height="250"/>
+<p id="master_info"><br>Rowena Ravenclaw:</br>
+Helga was renowned for her compassionate nature and charming ways. 
+She took in the house-elves to work in Hogwarts Kitchen, where they could work in peace and safety. 
+This was considered to be the best option at the time for house-elves. 
+While the other founders were careful in selection of students, Hufflepuff took in the rest.
+Helga favoured loyalty, honesty, fair play, and hard work, 
+but was known to accept all students regardless of whether or not they possessed these traits. 
+Members of her House usually display at least one of these traits in varying degrees.
+<br><br>
+</p>
 </section>
 
-<section>
-<h3>Recruitment of members</h3>
-<!--각종 스터디원 모집-->
-</section>
-
-<section>
-<h3>guest book</h3>
-</section>
-
-<section>
+<section id="ann"><br>
 <h3>Announcement by subject</h3>
+<ol>
+<li>3rd grade June 17th Magic Medicine Class: </br>
+Gathering in a greenhouse instead of a dungeon.</li>
+<li>3rd grade June 17th Magic Medicine Class:</br>
+ Gathering in a greenhouse instead of a dungeon.</li>
+<li>Sixth grade alchemy opening:</br>
+ Please apply. The deadline for applications is 12 June.</li>
+ </ol><br>
+</section>
+
+<section id="visit">
+<h3>guest book</h3>
+<table>
+<tr>
+<form>
+<input value="click button and write guest book!" type="button" onclick="hello();"/></form>
+</tr>
+<tr>
+<td><div id="result"></div></td>
+</tr>
+</table>
 </section>
 
 </article>
-<aside>
-<h3>Score by Dorm</h3>
+
+<aside id="side">
+&nbsp; &nbsp;Score by Dorm <br>
+<img id="ocean" src="score.png" width="300" height="220"/>
+<table id="score_form" border="1" border-spacing="200px">
+<tr>
+<td>griffindor<br>&nbsp;&nbsp;&nbsp;300</td><td>slytherin<br>&nbsp;&nbsp;&nbsp;500</td>
+</tr>
+<tr>
+<td>hufflepuff<br>&nbsp;&nbsp;&nbsp;350</td><td>ravenclaw<br>&nbsp;&nbsp;&nbsp;460</td>
+</tr>
+</table>
 </aside>
 
 <footer>

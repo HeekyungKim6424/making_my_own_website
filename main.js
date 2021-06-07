@@ -3,15 +3,19 @@ function freshman(){
 }
 
 function ok(){
-    var name=document.getElementById("name").value;
-    var domi=document.getElementsByName("domi").value;
+    var name=document.getElementById("sel");
+    name=name.options[name.selectedIndex].value;
 
-    if (domi=="revanclaw")
-    {alert("Congratulations on admission!"<br>"Click on the letter 'Revenclaw' at the top.");}
-    else if (domi=="slytherin")
-    {alert("Congratulations on admission!"<br>"Click on the letter 'Slytherin' at the top.");}
-    else if (domi=="hufflepuff")
-    {alert("Congratulations on admission!"<br>"Click on the letter 'Hufflepuff' at the top.");}
-    else if(domi=="gryffindor")
-    {alert("Congratulations on admission!"<br>"Click on the letter 'Gryffindor' at the top.");}
+    if (name=="revanclaw"){
+        alert("Congratulations on admission! Click on the letter 'Revenclaw' at the top.");
+    }
+    else if (name=="slytherin"){
+        alert("Congratulations on admission! Click on the letter 'Slytherin' at the top.");
+    }
+    else if (name=="hufflepuff"){
+        alert("Congratulations on admission! Click on the letter 'Hufflepuff' at the top.");
+    }
+    else if(name =="gryffindor"){
+        alert("Congratulations on admission! Click on the letter 'Gryffindor' at the top.");
+    }
 }

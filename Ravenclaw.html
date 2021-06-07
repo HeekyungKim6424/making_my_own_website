@@ -6,6 +6,7 @@
 </head>
 
 <body>
+<script type="text/javascript" src="domi.js"></script>
 <header>
 <a class="main_logo" href='main.html'><img src='logo.jpeg' width="90" height="100"/></a>
 </header>
@@ -13,7 +14,7 @@
 <article>
 <section id="domi">
 <img src="rev_logo.jpg" width="200" height="250"/>
-<p id="domi_info">Ravenclaw: </br>
+<p id="domi_info"><br>Ravenclaw: </br>
 Ravenclaw House prizes learning, wisdom, wit, and intellect in its members.</br> 
 Thus, many Ravenclaws tend to be academically motivated and talented students. </br>
 They also pride themselves on being original in their ideas, and methods.</br> 
@@ -23,12 +24,12 @@ as often is the case with intellectuals with a predisposition for academics, </b
 some of the pupils sorted under the blue-bronzed eagle are known to be inclined</br>
 to dismiss certain social expectations for the sake of satisfying their own intellectual curiosity.</br>
 Some of these eventually also ended up being not only accepted but even celebrated,</br>
-in spite of being initially subjected to scorn for their various oddities.
+in spite of being initially subjected to scorn for their various oddities.<br><br>
 </p>
 </section>
 <section id="master">
 <img src="master_revan.gif" width="200" height="250"/>
-<p id="master_info">Rowena Ravenclaw:</br>
+<p id="master_info"><br>Rowena Ravenclaw:</br>
 "Wit beyond measure is man's greatest treasure."</br>
 — Ravenclaw's philosophy[src]</br>
 Rowena Ravenclaw (fl. c. 993) was a Scottish witch and one of the </br>
@@ -38,11 +39,11 @@ Ravenclaw's most notable traits are her intelligence and creativity.</br>
 She valued the same characteristics in her students.Rowena seemed strict and intimidating,</br>
 but despite this she seemed to be forgiving and loving. </br>
 This shown by the fact that she was willing to disregard her daughter's betrayal just to see</br>
-her one last time on her deathbed.
+her one last time on her deathbed.<br><br>
 </p>
 </section>
 
-<section id="ann">
+<section id="ann"><br>
 <h3>Announcement by subject</h3>
 <ol>
 <li>3rd grade June 17th Magic Medicine Class: </br>
@@ -51,14 +52,20 @@ Gathering in a greenhouse instead of a dungeon.</li>
  Gathering in a greenhouse instead of a dungeon.</li>
 <li>Sixth grade alchemy opening:</br>
  Please apply. The deadline for applications is 12 June.</li>
- </ol>
+ </ol><br>
 </section>
 
 <section id="visit">
 <h3>guest book</h3>
+<table>
+<tr>
 <form>
-<input id="wirte" width="600" height="500"/></form>
-<input value="push" type="button"/>
+<input value="click button and write guest book!" type="button" onclick="hello();"/></form>
+</tr>
+<tr>
+<td><div id="result"></div></td>
+</tr>
+</table>
 </section>
 
 </article>
@@ -66,6 +73,14 @@ Gathering in a greenhouse instead of a dungeon.</li>
 <aside id="side">
 &nbsp; &nbsp;Score by Dorm <br>
 <img id="ocean" src="score.png" width="300" height="220"/>
+<table id="score_form" border="1" border-spacing="200px">
+<tr>
+<td>griffindor<br>&nbsp;&nbsp;&nbsp;300</td><td>slytherin<br>&nbsp;&nbsp;&nbsp;500</td>
+</tr>
+<tr>
+<td>hufflepuff<br>&nbsp;&nbsp;&nbsp;350</td><td>ravenclaw<br>&nbsp;&nbsp;&nbsp;460</td>
+</tr>
+</table>
 </aside>
 
 <footer>
