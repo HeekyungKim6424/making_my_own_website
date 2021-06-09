@@ -7,7 +7,7 @@ function ok(){
     name=name.options[name.selectedIndex].value;
 
     if (name=="revanclaw"){
-        alert();
+        alert("Congratulations on admission! Click on the letter 'Revalclaw' at the top.");
     }
     else if (name=="slytherin"){
         alert("Congratulations on admission! Click on the letter 'Slytherin' at the top.");
