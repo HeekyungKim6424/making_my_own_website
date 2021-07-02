@@ -1,0 +1,13 @@
+body {background-image:url(about_us_bg.jpg);}
+
+p{
+    font-size: 20px;
+    background-color: bisque;
+    opacity: 0.9;
+    color: black;
+}
+
+h2{
+    color: white;
+}
+

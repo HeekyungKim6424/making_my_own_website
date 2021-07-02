@@ -19,3 +19,19 @@ function ok(){
         alert("Congratulations on admission! Click on the letter 'Gryffindor' at the top.");
     }
 }
+
+function red() {
+    document.getElementById('red').style.color=red;
+}
+
+function blu() {
+    document.getElementById('blu').style.color="blue";
+}
+
+function green() {
+    document.getElementById('green').style.color="green";
+}
+
+function yello() {
+    document.getElementById('yello').style.color="yellow";
+}
